@@ -1,5 +1,4 @@
-
-LOCAL_PATH := device/lge/judyln
+LOCAL_PATH := device/lge/judypn
 
 # Define hardware platform
 PRODUCT_PLATFORM := sdm845
