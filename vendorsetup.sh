@@ -3,7 +3,7 @@ export FOX_BUILD_TYPE="Stable"
 export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL="C"
 
-export OF_AB_DEVICE=1
+export FOX_AB_DEVICE=1
 export FOX_USE_NANO_EDITOR=1
 export OF_FLASHLIGHT_ENABLE=0
 export OF_MAINTAINER=Juleast
