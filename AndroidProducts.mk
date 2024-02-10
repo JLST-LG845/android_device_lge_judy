@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_judyln.mk
+    $(LOCAL_DIR)/twrp_judyln.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_judyln-eng
