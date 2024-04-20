@@ -45,4 +45,4 @@ PRODUCT_PACKAGES += \
     libshim_icu
 
 PRODUCT_COPY_FILES += \
-    $(OUT_DIR)/target/product/judyp/obj/SHARED_LIBRARIES/libshim_icu_intermediates/libshim_icu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libshim_icu.so
+    $(OUT_DIR)/target/product/judyln/obj/SHARED_LIBRARIES/libshim_icu_intermediates/libshim_icu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libshim_icu.so
