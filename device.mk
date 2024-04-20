@@ -40,9 +40,5 @@ PRODUCT_PACKAGES += \
 # HACK: Set vendor patch level
 VENDOR_SECURITY_PATCH := 2025-12-31
 
-# Shims
-PRODUCT_PACKAGES += \
-    libshim_icu
-
 PRODUCT_COPY_FILES += \
-    $(OUT_DIR)/target/product/judyln/obj/SHARED_LIBRARIES/libshim_icu_intermediates/libshim_icu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libshim_icu.so
+    $(LOCAL_PATH)/recovery/root/system/lib64/libshim_icu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libshim_icu.so
